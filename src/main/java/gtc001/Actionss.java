@@ -41,12 +41,13 @@ public class Actionss {
          
  
     //***********************************************************************************************
-         WebDriverManager.chromedriver().setup();
-	     WebDriver driver = new ChromeDriver();
-	     driver.manage().window().maximize();
-         driver.get("https://swisnl.github.io/jQuery-contextMenu/demo.html");
-         Thread.sleep(2000);
- //      WebElement we = driver.findElement(By.xpath("//span[text()='right click me']"));
+//         WebDriverManager.chromedriver().setup();
+//	     WebDriver driver = new ChromeDriver();
+//	     driver.manage().window().maximize();
+//         driver.get("https://swisnl.github.io/jQuery-contextMenu/demo.html");
+//         Thread.sleep(2000);
+//         Actions act = new Actions(driver);
+//       WebElement we = driver.findElement(By.xpath("//span[text()='right click me']"));
 //       act.contextClick(we).build().perform();
 ////     WebElement we1 = driver.findElement(By.xpath("//span[text()='Copy']"));
 ////     act.contextClick(we1).build().perform();

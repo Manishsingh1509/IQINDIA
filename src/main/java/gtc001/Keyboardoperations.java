@@ -12,15 +12,16 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Keyboardoperations {
 
 	public static void main(String[] args) throws InterruptedException {
-//		WebDriverManager.chromedriver().setup();
-//		WebDriver driver = new ChromeDriver();
-//		driver.manage().window().maximize();
-//		driver.get("https://the-internet.herokuapp.com/key_presses");
-//		Thread.sleep(2000);
-//		Actions act = new Actions(driver);
-//		act.sendKeys(Keys.ALT).build().perform();
-//		Thread.sleep(2000);
-//		act.sendKeys(Keys.CLEAR).build().perform();
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://the-internet.herokuapp.com/key_presses");
+		Thread.sleep(2000);
+		Actions act = new Actions(driver);
+		act.sendKeys(Keys.ALT).build().perform();
+		Thread.sleep(2000);
+		act.sendKeys(Keys.CLEAR).build().perform();
+		
 		
 	//#############################--(Copy and paste)###########################################//
 //		WebDriverManager.chromedriver().setup();
