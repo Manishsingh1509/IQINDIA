@@ -14,8 +14,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
   <dependencies>
@@ -41,7 +41,7 @@
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
-    <version>7.5.1</version>
+    <version>7.7.0</version>
     <scope>test</scope>
 </dependency>
 
@@ -88,6 +88,8 @@
 </dependency>
 
 
+ 
+
 
   </dependencies>
   
@@ -109,12 +111,10 @@
 				<version>3.2.5</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<suiteXmlFile>testng1.xml</suiteXmlFile>
 					</suiteXmlFiles>
-				</configuration>
+					</configuration>
 			</plugin>
 		</plugins>
 	</build>
-
-  
 </project>

@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGcode.ListenerIntegrate">
+      <class name="pomdemo.Logtest">
         <methods>
-          <include name="testfail"/>
-          <include name="skipped"/>
+          <include name="userlogin"/>
         </methods>
-      </class> <!-- testNGcode.ListenerIntegrate -->
+      </class> <!-- pomdemo.Logtest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

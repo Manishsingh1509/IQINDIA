@@ -1,25 +1,351 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="6" total="44" passed="38" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-07T22:05:09 IST" name="Default suite" finished-at="2024-09-07T22:05:16 IST" duration-ms="7336">
+  <suite started-at="2024-09-14T14:56:08 IST" name="Suite" finished-at="2024-09-14T14:56:15 IST" duration-ms="7207">
     <groups>
+      <group name="daily build">
+        <method signature="Grouping.TC_003()[pri:0, instance:testNGcode.Grouping@2e3967ea]" name="TC_003" class="testNGcode.Grouping"/>
+        <method signature="Grouping.TC_004()[pri:0, instance:testNGcode.Grouping@2e3967ea]" name="TC_004" class="testNGcode.Grouping"/>
+      </group> <!-- daily build -->
+      <group name="weekly build">
+        <method signature="Grouping.TC_004()[pri:0, instance:testNGcode.Grouping@2e3967ea]" name="TC_004" class="testNGcode.Grouping"/>
+      </group> <!-- weekly build -->
+      <group name="regression">
+        <method signature="Grouping.TC_005()[pri:0, instance:testNGcode.Grouping@2e3967ea]" name="TC_005" class="testNGcode.Grouping"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Grouping.TC_001()[pri:0, instance:testNGcode.Grouping@2e3967ea]" name="TC_001" class="testNGcode.Grouping"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="Grouping.TC_002()[pri:0, instance:testNGcode.Grouping@2e3967ea]" name="TC_002" class="testNGcode.Grouping"/>
+      </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-09-07T22:05:09 IST" name="Default test" finished-at="2024-09-07T22:05:16 IST" duration-ms="7336">
-      <class name="log4j2.Logging">
-        <test-method is-config="true" signature="init()[pri:0, instance:log4j2.Logging@65e61854]" started-at="2024-09-07T22:05:09 IST" name="init" finished-at="2024-09-07T22:05:12 IST" duration-ms="3143" status="PASS">
+    <test started-at="2024-09-14T14:56:08 IST" name="Test" finished-at="2024-09-14T14:56:15 IST" duration-ms="7207">
+      <class name="testNGcode.Prioritization2">
+        <test-method signature="Book()[pri:0, instance:testNGcode.Prioritization2@5ab956d7]" started-at="2024-09-14T14:56:15 IST" name="Book" finished-at="2024-09-14T14:56:15 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Book -->
+        <test-method signature="Cancel()[pri:0, instance:testNGcode.Prioritization2@5ab956d7]" started-at="2024-09-14T14:56:15 IST" name="Cancel" finished-at="2024-09-14T14:56:15 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cancel -->
+        <test-method signature="Search()[pri:0, instance:testNGcode.Prioritization2@5ab956d7]" started-at="2024-09-14T14:56:15 IST" name="Search" finished-at="2024-09-14T14:56:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method signature="Sign()[pri:0, instance:testNGcode.Prioritization2@5ab956d7]" started-at="2024-09-14T14:56:15 IST" name="Sign" finished-at="2024-09-14T14:56:15 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sign -->
+      </class> <!-- testNGcode.Prioritization2 -->
+      <class name="testNGcode.DataProvider1">
+        <test-method signature="Run(java.lang.String)[pri:0, instance:testNGcode.DataProvider1@2e385cce]" started-at="2024-09-14T14:56:15 IST" name="Run" data-provider="Test" finished-at="2024-09-14T14:56:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Run -->
+        <test-method signature="Run(java.lang.String)[pri:0, instance:testNGcode.DataProvider1@2e385cce]" started-at="2024-09-14T14:56:15 IST" name="Run" data-provider="Test" finished-at="2024-09-14T14:56:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Run -->
+        <test-method signature="Run(java.lang.String)[pri:0, instance:testNGcode.DataProvider1@2e385cce]" started-at="2024-09-14T14:56:15 IST" name="Run" data-provider="Test" finished-at="2024-09-14T14:56:15 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Run -->
+        <test-method signature="run(java.lang.Object)[pri:0, instance:testNGcode.DataProvider1@2e385cce]" started-at="2024-09-14T14:56:15 IST" name="run" data-provider="Test1" finished-at="2024-09-14T14:56:15 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method signature="run(java.lang.Object)[pri:0, instance:testNGcode.DataProvider1@2e385cce]" started-at="2024-09-14T14:56:15 IST" name="run" data-provider="Test1" finished-at="2024-09-14T14:56:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method signature="run(java.lang.Object)[pri:0, instance:testNGcode.DataProvider1@2e385cce]" started-at="2024-09-14T14:56:15 IST" name="run" data-provider="Test1" finished-at="2024-09-14T14:56:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method signature="run(java.lang.Object)[pri:0, instance:testNGcode.DataProvider1@2e385cce]" started-at="2024-09-14T14:56:15 IST" name="run" data-provider="Test1" finished-at="2024-09-14T14:56:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method signature="run(java.lang.Object)[pri:0, instance:testNGcode.DataProvider1@2e385cce]" started-at="2024-09-14T14:56:15 IST" name="run" data-provider="Test1" finished-at="2024-09-14T14:56:15 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+      </class> <!-- testNGcode.DataProvider1 -->
+      <class name="testNGcode.LogIn">
+        <test-method is-config="true" signature="init()[pri:0, instance:testNGcode.LogIn@2892d68]" started-at="2024-09-14T14:56:08 IST" name="init" finished-at="2024-09-14T14:56:11 IST" duration-ms="2896" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="login1()[pri:0, instance:log4j2.Logging@65e61854]" started-at="2024-09-07T22:05:12 IST" name="login1" finished-at="2024-09-07T22:05:16 IST" duration-ms="4015" status="PASS">
+        <test-method signature="login1()[pri:0, instance:testNGcode.LogIn@2892d68]" started-at="2024-09-14T14:56:11 IST" name="login1" finished-at="2024-09-14T14:56:15 IST" duration-ms="3976" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login1 -->
-        <test-method signature="verify()[pri:0, instance:log4j2.Logging@65e61854]" started-at="2024-09-07T22:05:16 IST" name="verify" finished-at="2024-09-07T22:05:16 IST" duration-ms="70" status="PASS">
+        <test-method signature="verify()[pri:0, instance:testNGcode.LogIn@2892d68]" started-at="2024-09-14T14:56:15 IST" name="verify" finished-at="2024-09-14T14:56:15 IST" duration-ms="76" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify -->
-      </class> <!-- log4j2.Logging -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testNGcode.LogIn -->
+      <class name="testNGcode.Grouping">
+        <test-method signature="TC_001()[pri:0, instance:testNGcode.Grouping@2e3967ea]" started-at="2024-09-14T14:56:11 IST" name="TC_001" finished-at="2024-09-14T14:56:11 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method signature="TC_002()[pri:0, instance:testNGcode.Grouping@2e3967ea]" started-at="2024-09-14T14:56:11 IST" name="TC_002" finished-at="2024-09-14T14:56:11 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002 -->
+        <test-method signature="TC_003()[pri:0, instance:testNGcode.Grouping@2e3967ea]" started-at="2024-09-14T14:56:11 IST" name="TC_003" finished-at="2024-09-14T14:56:11 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003 -->
+        <test-method signature="TC_004()[pri:0, instance:testNGcode.Grouping@2e3967ea]" started-at="2024-09-14T14:56:11 IST" name="TC_004" finished-at="2024-09-14T14:56:11 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004 -->
+        <test-method signature="TC_005()[pri:0, instance:testNGcode.Grouping@2e3967ea]" started-at="2024-09-14T14:56:11 IST" name="TC_005" finished-at="2024-09-14T14:56:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005 -->
+      </class> <!-- testNGcode.Grouping -->
+      <class name="testNGcode.IgnoreTest">
+        <test-method signature="TC002()[pri:0, instance:testNGcode.IgnoreTest@3e27aa33]" started-at="2024-09-14T14:56:15 IST" name="TC002" finished-at="2024-09-14T14:56:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002 -->
+        <test-method signature="TC003()[pri:0, instance:testNGcode.IgnoreTest@3e27aa33]" started-at="2024-09-14T14:56:15 IST" name="TC003" finished-at="2024-09-14T14:56:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC003 -->
+        <test-method signature="TC004()[pri:0, instance:testNGcode.IgnoreTest@3e27aa33]" started-at="2024-09-14T14:56:15 IST" name="TC004" finished-at="2024-09-14T14:56:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC004 -->
+        <test-method signature="TC005()[pri:0, instance:testNGcode.IgnoreTest@3e27aa33]" started-at="2024-09-14T14:56:15 IST" name="TC005" finished-at="2024-09-14T14:56:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC005 -->
+      </class> <!-- testNGcode.IgnoreTest -->
+      <class name="testNGcode.Prioritization">
+        <test-method signature="Book()[pri:0, instance:testNGcode.Prioritization@5d534f5d]" started-at="2024-09-14T14:56:11 IST" name="Book" finished-at="2024-09-14T14:56:11 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Book -->
+        <test-method signature="Sign()[pri:0, instance:testNGcode.Prioritization@5d534f5d]" started-at="2024-09-14T14:56:11 IST" name="Sign" finished-at="2024-09-14T14:56:11 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sign -->
+        <test-method signature="Search()[pri:2, instance:testNGcode.Prioritization@5d534f5d]" started-at="2024-09-14T14:56:11 IST" name="Search" finished-at="2024-09-14T14:56:11 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method signature="Cancel()[pri:4, instance:testNGcode.Prioritization@5d534f5d]" started-at="2024-09-14T14:56:11 IST" name="Cancel" finished-at="2024-09-14T14:56:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cancel -->
+      </class> <!-- testNGcode.Prioritization -->
+      <class name="testNGcode.TwoDdataprovider">
+        <test-method signature="run(java.lang.Object,java.lang.Object)[pri:0, instance:testNGcode.TwoDdataprovider@750e2b97]" started-at="2024-09-14T14:56:15 IST" name="run" data-provider="twoD" finished-at="2024-09-14T14:56:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chaudhary]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method signature="run(java.lang.Object,java.lang.Object)[pri:0, instance:testNGcode.TwoDdataprovider@750e2b97]" started-at="2024-09-14T14:56:15 IST" name="run" data-provider="twoD" finished-at="2024-09-14T14:56:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institute]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IQ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method signature="run(java.lang.Object,java.lang.Object)[pri:0, instance:testNGcode.TwoDdataprovider@750e2b97]" started-at="2024-09-14T14:56:15 IST" name="run" data-provider="twoD" finished-at="2024-09-14T14:56:15 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Batch]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method signature="run(java.lang.Object,java.lang.Object)[pri:0, instance:testNGcode.TwoDdataprovider@750e2b97]" started-at="2024-09-14T14:56:15 IST" name="run" data-provider="twoD" finished-at="2024-09-14T14:56:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Timing]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method signature="run1(java.lang.Object,java.lang.Object)[pri:0, instance:testNGcode.TwoDdataprovider@750e2b97]" started-at="2024-09-14T14:56:15 IST" name="run1" data-provider="twoD1" finished-at="2024-09-14T14:56:15 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mohit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chaudhary]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run1 -->
+        <test-method signature="run1(java.lang.Object,java.lang.Object)[pri:0, instance:testNGcode.TwoDdataprovider@750e2b97]" started-at="2024-09-14T14:56:15 IST" name="run1" data-provider="twoD1" finished-at="2024-09-14T14:56:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institute]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IQ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run1 -->
+        <test-method signature="run1(java.lang.Object,java.lang.Object)[pri:0, instance:testNGcode.TwoDdataprovider@750e2b97]" started-at="2024-09-14T14:56:15 IST" name="run1" data-provider="twoD1" finished-at="2024-09-14T14:56:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Batch]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[36]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run1 -->
+        <test-method signature="run1(java.lang.Object,java.lang.Object)[pri:0, instance:testNGcode.TwoDdataprovider@750e2b97]" started-at="2024-09-14T14:56:15 IST" name="run1" data-provider="twoD1" finished-at="2024-09-14T14:56:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Timing]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run1 -->
+      </class> <!-- testNGcode.TwoDdataprovider -->
+      <class name="testNGcode.Enabled">
+        <test-method signature="TC001()[pri:0, instance:testNGcode.Enabled@3646a422]" started-at="2024-09-14T14:56:15 IST" name="TC001" finished-at="2024-09-14T14:56:15 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001 -->
+        <test-method signature="TC004()[pri:0, instance:testNGcode.Enabled@3646a422]" started-at="2024-09-14T14:56:15 IST" name="TC004" finished-at="2024-09-14T14:56:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC004 -->
+        <test-method signature="TC005()[pri:0, instance:testNGcode.Enabled@3646a422]" started-at="2024-09-14T14:56:15 IST" name="TC005" finished-at="2024-09-14T14:56:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC005 -->
+      </class> <!-- testNGcode.Enabled -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

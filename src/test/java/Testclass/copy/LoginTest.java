@@ -31,7 +31,7 @@
 //  }
 
 /*  #################  (Properties file) ###################################### */
-package Testclass;
+package Testclass.copy;
 
 import java.io.IOException;
 

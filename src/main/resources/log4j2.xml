@@ -6,14 +6,14 @@
 			    pattern="%d{HH:mm:ss.SSS} [%t]%-5Level %Logger{36} - %msg%n"/>
 		</Appender>
 		
-		<Appender type="File" name="MAIN" fileName="logs/main.log">
+		<Appender type="File" name="file" fileName="logs/main.log">
 			<Layout type="PatternLayout"
 			    pattern="%d{HH:mm:ss.SSS} [%t]%-5Level %Logger{36} - %msg%n"/>
 		</Appender>
 	</Appenders>
 	
 	<Loggers>
-		<Root level="all">
+		<Root level="warn">
 			<AppenderRef ref="file"/>
 		</Root>
 	</Loggers>
