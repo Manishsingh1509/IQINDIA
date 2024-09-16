@@ -67,20 +67,20 @@ public class ExtenReportss {
 		
 		
 		
-//		test1.log(Status.FAIL, "<font color = 'red'>Test case is failed<font>").log(Status.SKIP, "Skip one");
-//		test1.log(Status.PASS, "Information");
-//		test1.log(Status.INFO,"Pass");
-//		test1.log(Status.WARNING,"Warning").info(MarkupHelper.createLabel("This is a test message", ExtentColor.PURPLE));
-//		
-//		String JSONData = "{'name':'QA','Address':'IQ'}";
-//		test2.info(MarkupHelper.createCodeBlock(JSONData,CodeLanguage.JSON));
-//		
-//		
-//		try {
-//			int i = 10/0;
-//		}catch(Exception e ) {
-//			test1.info(e.getMessage());  //[info ka work yha print krna h]
-//		}
+		test1.log(Status.FAIL, "<font color = 'red'>Test case is failed<font>").log(Status.SKIP, "Skip one");
+		test1.log(Status.PASS, "Information");
+		test1.log(Status.INFO,"Pass");
+		test1.log(Status.WARNING,"Warning").info(MarkupHelper.createLabel("This is a test message", ExtentColor.PURPLE));
+		
+		String JSONData = "{'name':'QA','Address':'IQ'}";
+		test2.info(MarkupHelper.createCodeBlock(JSONData,CodeLanguage.JSON));
+		
+		
+		try {
+			int i = 10/0;
+		}catch(Exception e ) {
+			test1.info(e.getMessage());  //[info ka work yha print krna h]
+		}
 		extentreports.flush();
 		Desktop.getDesktop().browse(new File("C:\\Users\\Manish\\eclipse-workspace\\Testing001\\ExtentReport\\report.html").toURI());
 	}
